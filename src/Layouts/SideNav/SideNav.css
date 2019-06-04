@@ -30,6 +30,7 @@
 
   h1 {
       font-size: 40px;
+      padding: 16px;
   }
   
   .sidenav a:hover {
@@ -39,4 +40,10 @@
   
   .button-container {
       margin: 15px;
+      padding :24px 0px;
+  }
+  
+
+  .active-side {
+      background-color: rgb(48, 55, 61);
   }

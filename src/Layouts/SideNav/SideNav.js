@@ -5,14 +5,13 @@ import { Button } from 'react-bootstrap'
 const sideNav = (props) => {
     return (
         <div className="sidenav">
-            <h1>39</h1>
-            <p>Ideas</p>
-
+            <h1>Dashboard</h1>
+        
             <div className="button-container">
-                <Button variant="primary" block >Add Idea</Button>
+                <Button variant="primary" block onClick={props.addClick}>Add Idea</Button>
             </div>
-            <a href="#about">All Ideas</a>
-            <a href="#services">My Idea</a>
+            <a href="#about" className="active-side">All Ideas</a>
+            <a href="#services" >My Ideas</a>
 
 
 

@@ -2,21 +2,30 @@ import React, { Component } from 'react';
 import NavBar from '../../Layouts/NavBar/NavBar'
 import SideNav from '../../Layouts/SideNav/SideNav';
 import { Card, Col, Container, Row, InputGroup, FormControl, Button } from 'react-bootstrap'
+import Modal from '../../Components/Modal/CenteredModal';
 
 class MainPage extends Component {
     state = {
+        showModal: false
+    }
 
+    addIdeaButtonHandler = () => {
+        this.setState({ showModal: true })
     }
 
 
     render() {
+        let modalClose = () => this.setState({ showModal: false });
+
         return (
-            <div className='main-page-container'>
+
+            <div >
+                <Modal show={this.state.showModal}/>
                 <NavBar />
-                <SideNav />
+                <SideNav addClick={this.addIdeaButtonHandler} />
                 <div style={{
-                    marginTop:'84px',
-                    marginLeft:'280px',
+                    marginTop: '84px',
+                    marginLeft: '280px',
                     marginRight: '15px'
                 }}>
                     <InputGroup className="mb-3">
@@ -90,7 +99,7 @@ class MainPage extends Component {
                         </Col>
 
                         <Col>
-                            <Card bg="warning" text="white" style={{  }}>
+                            <Card bg="warning" text="white" style={{}}>
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Warning Card Title</Card.Title>
