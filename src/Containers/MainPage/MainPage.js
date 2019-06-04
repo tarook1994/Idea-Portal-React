@@ -34,11 +34,11 @@ class MainPage extends Component {
                 <Container style={{
                     marginLeft: '260px',
                     marginTop: '80px',
-                    marginRight: '0px'
-                }} fluid>
+                    marginRight: '80px'
+                }} >
                     <Row>
                         <Col sm >
-                            <Card bg="primary" text="white" style={{ width: '18rem' }}>
+                            <Card bg="primary" text="white" >
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Primary Card Title</Card.Title>
@@ -50,7 +50,7 @@ class MainPage extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card bg="secondary" text="white" style={{ width: '18rem' }}>
+                            <Card bg="secondary" text="white" >
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Secondary Card Title</Card.Title>
@@ -61,8 +61,8 @@ class MainPage extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
-                            <Card bg="success" text="white" style={{ width: '18rem' }}>
+                        <Col sm>
+                            <Card bg="success" text="white" >
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Success Card Title</Card.Title>
@@ -72,12 +72,12 @@ class MainPage extends Component {
                               </Card.Text>
                                 </Card.Body>
                             </Card>
-                        </Col>
+                        </Col >
                     </Row>
                     <br></br>
-                    <Row sm>
-                        <Col>
-                            <Card bg="danger" text="white" style={{ width: '18rem' }}>
+                    <Row>
+                        <Col sm>
+                            <Card bg="danger" text="white" >
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Danger Card Title</Card.Title>
@@ -90,7 +90,7 @@ class MainPage extends Component {
                         </Col>
 
                         <Col>
-                            <Card bg="warning" text="white" style={{ width: '18rem' }}>
+                            <Card bg="warning" text="white" style={{  }}>
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Warning Card Title</Card.Title>
@@ -103,7 +103,7 @@ class MainPage extends Component {
                         </Col>
 
                         <Col>
-                            <Card bg="info" text="white" style={{ width: '18rem', marginRight: '0px' }}>
+                            <Card bg="info" text="white" >
                                 <Card.Header>Header</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Info Card Title</Card.Title>
