@@ -3,7 +3,13 @@
   
 .topnav {
     overflow: hidden;
-    background-color: #00a1ff;
+    background-color: #007bff;
+   height: 60px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+  right: 0;
+  z-index: 10;
    
   }
   
@@ -16,16 +22,18 @@
     text-decoration: none;
     font-size: 17px;
     z-index: 20;
+    border-radius: 10px;
+    margin-right: 10px;
   }
   
   .topnav a:hover {
-    background-color: #0784cc;
+    background-color: #0f5eb3;
     color: white;
 
   }
   
   .active {
-    background-color: #0784cc;
+    background-color: #0f5eb3;
     color: white;
   }
   

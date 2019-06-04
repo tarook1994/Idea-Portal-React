@@ -4,7 +4,6 @@ import HeadRoom from 'react-headroom'
 
 const navBar = (props) => {
     return (
-        <HeadRoom >
             <div class="topnav" id="myTopnav">
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -14,7 +13,6 @@ const navBar = (props) => {
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
-        </HeadRoom>
     )
 }
 export default navBar;

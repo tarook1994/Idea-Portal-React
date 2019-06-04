@@ -8,18 +8,21 @@
     background-color: #1c262f;
     overflow-x: hidden;
     padding-top: 20px;
-    margin-top: 48px;
+    margin-top: 60px;
   }
   
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15;
     text-align: center;
-    color: #818181;
+    color: white;
     display: block;
   }
 
+  .sidenav a:hover {
+    background-color: #2e3d49
+  }
   .sidenav h1,p {
       color: white
       
@@ -32,4 +35,8 @@
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
   
+  .button-container {
+      margin: 15px;
+  }
