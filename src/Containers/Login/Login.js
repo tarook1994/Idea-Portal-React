@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Axios from 'axios'
 import './Login.css'
+import { FormControl } from 'react-bootstrap'
 
 
 class Login extends Component {
@@ -43,12 +44,23 @@ class Login extends Component {
                     <div id="formContent">
 
                         <div class="fadeIn first">
-                        <h2> Sign In </h2>
+                            <h2> Sign In </h2>
                         </div>
 
                         <form>
-                            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login" />
-                            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password" />
+                            <FormControl className="fadeIn second" 
+                                type="text"
+                                value={this.state.value}
+                                placeholder="Username"
+                                onChange={this.handleChange}
+                            />
+
+                            <FormControl className="fadeIn third" 
+                                type="text"
+                                value={this.state.value}
+                                placeholder="Password"
+                                onChange={this.handleChange}
+                            />
                             <input type="submit" class="fadeIn fourth" value="Log In" />
                         </form>
 
