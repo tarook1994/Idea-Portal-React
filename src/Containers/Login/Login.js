@@ -61,11 +61,10 @@ class Login extends Component {
                                 placeholder="Password"
                                 onChange={this.handleChange}
                             />
-                            <input type="submit" class="fadeIn fourth" value="Log In" />
+                            <button id = 'button' class="fadeIn fourth"  onClick={this.props.login}>Login</button>
                         </form>
 
                         <div id="formFooter">
-                            <a class="underlineHover" href="#">Forgot Password?</a>
                         </div>
 
                     </div>

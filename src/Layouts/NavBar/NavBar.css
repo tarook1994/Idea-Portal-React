@@ -29,9 +29,9 @@
   .topnav a:hover {
     background-color: #0f5eb3;
     color: white;
-
+    text-decoration: none;
   }
-  
+
   .active {
     background-color: #0f5eb3;
     color: white;
