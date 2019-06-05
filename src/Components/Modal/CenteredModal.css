@@ -20,6 +20,19 @@
     width:100%;
     z-index:10000;
 }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 .hover_bkgr_fricc .helper{
     display:inline-block;
@@ -122,5 +135,15 @@ button {
 }
 /* Popup box BEGIN */
 
+#primary-button {
+    background-color: #007bff;
+    outline: none
+}
+
+#red-button {
+    background-color: #f3374a;
+    outline: none;
+    border-color: #f3374a
+}
 
 

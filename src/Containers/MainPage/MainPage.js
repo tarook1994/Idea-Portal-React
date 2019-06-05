@@ -12,6 +12,11 @@ class MainPage extends Component {
     addIdeaButtonHandler = () => {
         this.setState({ showModal: true })
     }
+    cancelButtonHander = () => {
+        this.setState({
+            showModal :false
+        })
+    }
 
 
     render() {
@@ -20,7 +25,8 @@ class MainPage extends Component {
         return (
 
             <div >
-                <Modal show={this.state.showModal}/>
+                <Modal show={this.state.showModal}
+                cancel = {this.cancelButtonHander}/>
                 <NavBar />
                 <SideNav addClick={this.addIdeaButtonHandler} />
                 <div style={{

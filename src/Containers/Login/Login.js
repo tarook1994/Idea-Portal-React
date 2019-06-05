@@ -38,42 +38,27 @@ class Login extends Component {
 
     render() {
         return (
-            <div className="mid-class">
-                <div className="art-right-w3ls">
-                    <h2>Sign In</h2>
-                    <div className="main">
-                        <div className="form-left-to-w3l">
-                            <input type="text" name="name" placeholder="Username" required="" onChange={(event) => this.setUsernameState(event)} />
+            <div className="login-container">
+                <div class="wrapper fadeInDown">
+                    <div id="formContent">
+
+                        <div class="fadeIn first">
+                        <h2> Sign In </h2>
                         </div>
-                        <div className="form-left-to-w3l ">
-                            <input type="password" name="password" placeholder="Password" required="" onChange={(event) => this.setPasswordState(event)} />
-                            <div className="clear"></div>
+
+                        <form>
+                            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login" />
+                            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password" />
+                            <input type="submit" class="fadeIn fourth" value="Log In" />
+                        </form>
+
+                        <div id="formFooter">
+                            <a class="underlineHover" href="#">Forgot Password?</a>
                         </div>
+
                     </div>
-                    <div className="left-side-forget">
-                        <input type="checkbox" className="checked" />
-                        <span className="remenber-me">Remember me </span>
-                    </div>
-                    <div className="right-side-forget">
-                        <a href="#" className="for">Forgot password...?</a>
-                    </div>
-                    <div className="clear"></div>
-                    <div className="btnn">
-                        <button type="submit" onClick={this.signIn}>Sign In</button>
-                    </div>
-                    <div className="w3layouts_more-buttn">
-                        <h3>Don't Have an account..?
-                  <a href="#content1">Sign Up Here
-                  </a>
-                        </h3>
-                    </div>
-                    
                 </div>
-                <div class="art-left-w3ls">
-                    <h1 class="header-w3ls">
-                        Idea Portal
-            </h1>
-                </div>
+
             </div>
 
         )
