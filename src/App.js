@@ -7,8 +7,8 @@ import MainPage from './Containers/MainPage/MainPage';
 function App() {
   return (
     <div className="App">
-      <Login/>
-      {/* <MainPage/> */}
+      {/* <Login/> */}
+      <MainPage/>
     </div>
   );
 }
