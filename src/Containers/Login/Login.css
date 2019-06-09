@@ -87,7 +87,7 @@ h2.active {
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=submit], input[type=reset] , #button {
-  background-color: #56baed;
+  background-color: #007bff;
   border: none;
   color: white;
   padding: 15px 180px;
@@ -129,7 +129,7 @@ input[type=text] {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 5px;
+  margin-top: 20px;
   width: 85%;
   border: 2px solid #f6f6f6;
   -webkit-transition: all 0.5s ease-in-out;
@@ -216,7 +216,7 @@ input[type=text]:placeholder {
 }
 
 .fadeIn.first {
-	background-color: #56baed;
+	background-color: #007bff ;
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -248,10 +248,12 @@ input[type=text]:placeholder {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #56baed;
+  background-color: #007bff;
   content: "";
   transition: width 0.2s;
 }
+
+/* //56baed */
 
 .underlineHover:hover {
   color: #0d0d0d;

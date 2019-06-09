@@ -42,7 +42,6 @@ class Login extends Component {
             <div className="login-container">
                 <div class="wrapper fadeInDown">
                     <div id="formContent">
-
                         <div class="fadeIn first">
                             <h2> Sign In </h2>
                         </div>
