@@ -1,6 +1,6 @@
 # Idea Portal
 
-![alt tag](https://firebasestorage.googleapis.com/v0/b/wanderkit-b1e55.appspot.com/o/Idea.png?alt=media&token=639a61ba-e8bd-49cb-88c4-80362ccb4a14)
+![alt tag](https://firebasestorage.googleapis.com/v0/b/wanderkit-b1e55.appspot.com/o/Picture2.png?alt=media&token=b113cc62-d760-424c-81b6-25fe634463ed)
 
 
 
